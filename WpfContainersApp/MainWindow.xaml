@@ -111,5 +111,41 @@
                 Canvas.Left="100"
                 Canvas.Bottom="100"/>
     </Canvas>-->
+
+    <Grid>
+        <Button Width="200" 
+                Height="100"
+                Background="Aqua"
+                Panel.ZIndex="3"/>
+        <Button Width="200" 
+                Height="100"
+                Background="Yellow"
+                Margin="0,80,80,0"
+                Panel.ZIndex="2"/>
+        <Button Width="200" 
+                Height="100"
+                Background="LawnGreen"
+                Margin="0,160,160,0"/>
+        <!--<Button Content="Button 1"
+                Width="200"
+                Padding="30,20,10,40"
+                HorizontalContentAlignment="Left"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Stretch"/>
+        <Button Content="Button 2"
+                Width="200"
+                Height="100"
+                HorizontalAlignment="Right"
+                VerticalAlignment="Center"/>
+        <Button Content="Button 3"
+                Width="200"
+                Height="100"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Top"/>
+        <Button Content="Button 4"
+                Height="100"
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Bottom"/>-->
+    </Grid>
     
 </Window>
